@@ -1,0 +1,36 @@
+.hero_main {
+    height: 100vh;
+    background-color: var(--primary-bg-color);
+    padding-top: 80px;
+}
+
+.hero_container {
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+}
+
+.hero_container .hero_h1 {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    font-size: 18em;
+    font-family: var(--funky-font);
+    letter-spacing: -5px;
+}
+
+.hero_container .hero_h1:last-child {
+    z-index: 3;
+}
+
+.hero_container img {
+    position: absolute;
+    height: 550px;
+    width: min-content;
+    top: 4em;
+}

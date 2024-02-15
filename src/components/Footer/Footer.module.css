@@ -1,0 +1,28 @@
+.container {
+  bottom: 0;
+  display: inline-flex;
+  width: 100%;
+  
+  cursor: default;
+  background-color: var(--secondary-bg-color);
+  color: var(--primary-bg-color);
+  position: fixed;
+
+}
+
+.container .footer {
+  text-transform: uppercase;
+  padding: 0.6em 0;
+  font-size: 1.125em;
+  font-weight: 800;
+}
+
+.container .footer p {
+  margin: 0 2em;
+  font-family: var(--funky-font);
+  font-size: 1.3em;
+  font-weight: 100;
+}
+
+.container .footer .curl_img{
+}
